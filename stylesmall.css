@@ -1,0 +1,13 @@
+@media only screen and (max-width:961px) and (min-width:300px){
+
+.nav-items-div{
+    display: none;
+}
+.sidebar-div{
+    display: flex;
+}
+.contact-div-text{
+    border: 1px solid red;
+} 
+        
+}

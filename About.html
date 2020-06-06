@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>KASHPAK.CO</title>
+ <link rel="stylesheet" type="text/css" href="./style1.css">
+    <!-- link type="text/css" rel="stylesheet" href="./style.css" /> -->
+</head>
+<body>
+
+
+  
+    <nav class="navbar">
+        <div class="logo-div">
+         <img class="logo" src='./assets/icon.png'>
+        </div>
+        <div class="nav">
+            <ul class="nav-items-div">
+                <li class="nav-items"><label class="nav-items-text"><a class="nav-links" href="./index.html"> Home</a></label> </li>
+                <li class="nav-items"><label class="nav-items-text"><a class="nav-links" href="./About.html"> About</a></label> </li>
+          
+
+
+                <!-- <li class="nav-items"><label class="nav-items-text"><a class="nav-links" href="Product.html">Product</a></label> </li> -->
+               
+                <li onClick="toggleDropdown2()" class="nav-items dropdown"><label class="nav-items-text">Categories</label>
+                    <ul id ="dropdown2" class="contact-dropdown dropdown2">
+                        <li onClick="func()" class="dropdown-items"> <a class="nav-links" href="mobiles.html">Mobiles</a> </li>
+                        <li class="dropdown-items"> <a class="nav-links" href="laptops.html">Laptops</a> </li>
+                    </ul>
+                </li>
+                <li class="nav-items"><label class="nav-items-text"><a class="nav-links" href="./Contact.html"> Contact Us</a></label> </li>
+
+
+<!-- 
+                <li onClick="toggleDropdown()" class="nav-items dropdown" ><label class="nav-items-text">Contact</label>
+                    <ul  id="dropdown" class="contact-dropdown "  >
+                        <li onClick="func()" class="dropdown-items"> 03092272241 </li>
+                        <li class="dropdown-items"> Dreamer.ahsan@gmail.com </li>
+                    </ul>
+                </li> -->
+            </ul>
+
+        </ul>
+        </div>
+            </nav>
+       
+
+
+
+
+    <div onClick="toggleOff()" class="container">
+        <div class="contact-div">
+            <div class="img-div">
+                <img id='profile-img' class="profile-img" src="profile.jpg" /> 
+            </div>
+            <p id="text-sim" class='contact-div-text' ></p>
+        </div>
+        <div id='text2-sim' class="content-2">
+            <p  class="content-2-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+
+
+
+</body>
+</html>
+<script src='./app.js'></script>
+<script src='./About.js'></script>

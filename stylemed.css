@@ -1,0 +1,24 @@
+@media screen and (max-width:1360px) and (min-width:960px){
+    .contact-div{
+    flex-direction: column;
+    justify-content: center;
+    }
+    .contact-div-text{
+    /* width: 100%; */
+    text-align: center;
+    margin-top: 40px;
+    }
+}
+@media only screen and (max-width:961px) and (min-width:300px){
+
+    /* .nav-items-div{
+        display: none;
+    }
+    .sidebar-div{
+        display: flex;
+    } */
+    .contact-div-text{
+        border: 1px solid red;
+    } 
+            
+    }
